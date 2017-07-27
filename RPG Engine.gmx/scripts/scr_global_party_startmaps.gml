@@ -1,0 +1,8 @@
+var global.inventory = ds_map_create()
+ds_map_add(global.inventory,"Apple",99)
+ds_map_add(global.inventory,"Potion of Power",99)
+var global.weapons = ds_map_create()
+ds_map_add(global.weapons,"Sword",4)
+ds_map_add(global.weapons,"Shield",4)
+var global.armor = ds_map_create()
+ds_map_add(global.inventory,"Metal Chestplate",4)
